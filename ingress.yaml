@@ -2,6 +2,7 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: httpdingress
+  namespace: harness-delegate-ng
 spec:
   rules:
     - host: ec2-44-201-27-92.compute-1.amazonaws.com
