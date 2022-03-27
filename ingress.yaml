@@ -4,7 +4,7 @@ metadata:
   name: httpdingress
 spec:
   rules:
-    - host: 44.201.27.92
+    - host: ec2-44-201-27-92.compute-1.amazonaws.com
       http:
         paths:
           - path: /
